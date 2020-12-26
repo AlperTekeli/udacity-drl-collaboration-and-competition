@@ -56,13 +56,13 @@ Output node (1 node)
 
 ### Plot of rewards
 
-Agent is able to receive an average reward (over 100 episodes) of at least 30:
+Agent is able to receive an average reward (over 100 episodes) of at least 0.5:
 
-Environment solved in 106 episodes. 
+Environment solved in 2063 episodes. 
 
-Average score: 30.00
+Average score: 0.508
 
-![alt text](https://github.com/AlperTekeli/udacity-continuous-control/blob/main/score.png)
+![alt text](https://github.com/AlperTekeli/udacity-drl-collaboration-and-competition/blob/main/score.png)
 
 ### Ideas for Future Work
 
