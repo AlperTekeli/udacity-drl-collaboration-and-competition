@@ -68,24 +68,15 @@ Average score: 30.00
 
 It is challenging to achieve stable learning with MADDPG, especially with regards to hyperparameter tuning. 
 
-Based on [paper](https://arxiv.org/pdf/1604.06778.pdf) "Benchmarking Deep Reinforcement Learning for Continuous Control"
-I would like to try the following algorithms for this task and compare their performance to DDPG. 
-
-- Trust Region Policy Optimization (TRPO)
-  
-  TRPO is a trust region-based policy gradient method.
-  
-  "This algorithm allows more precise control on the expected policy improvement than TNPG through the introduction of a surrogate loss." (1)
-  Please refer to "Schulman, J., Levine, S., Abbeel, P., Jordan, M. I., and Moritz, P. Trust region policy optimization. In ICML, pp. 1889–1897,
-  2015a" for details regarding TRPO.
+I would like to try multi-agent versions of the following algorithms for this task and compare their performance to Multi-Agent DDPG. 
 
 - Proximal Policy Optimization (PPO)
   
-  I am also eager to apply PPO, which is denoted as the default reinforcement learning algorithm at OpenAI because of its ease of use and good performance. -[link](https://openai.com/blog/openai-baselines-ppo/)
+  PPO, denoted as the default reinforcement learning algorithm at OpenAI because of its ease of use and good performance. -[link](https://openai.com/blog/openai-baselines-ppo/)
 
   You may find the PPO paper [here](https://arxiv.org/abs/1707.06347)
 
-  "PPO strikes a balance between ease of implementation, sample complexity, and ease of tuning, trying to compute an update at each step that minimizes the cost function while     ensuring the deviation from the previous policy is relatively small." (2)
+  "PPO strikes a balance between ease of implementation, sample complexity, and ease of tuning, trying to compute an update at each step that minimizes the cost function while     ensuring the deviation from the previous policy is relatively small." (1)
 
 - Distributed Distributional Deterministic Policy Gradients (D4PG) - [paper here](https://openreview.net/forum?id=SyZipzbCb)
 
@@ -93,5 +84,4 @@ I would like to try the following algorithms for this task and compare their per
 
 
 ### References
-[1] "Benchmarking Deep Reinforcement Learning for Continuous Control" - https://arxiv.org/pdf/1604.06778.pdf
-[2] https://openai.com/blog/openai-baselines-ppo/
+[1] https://openai.com/blog/openai-baselines-ppo/
