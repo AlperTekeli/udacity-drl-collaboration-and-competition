@@ -19,7 +19,7 @@ Following techniques are used in my solution:
 
 BUFFER_SIZE = int(1e5)  # replay buffer size
 
-BATCH_SIZE = 250        # minibatch size
+BATCH_SIZE = 256        # minibatch size
 
 GAMMA = 0.99            # discount factor
 
