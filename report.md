@@ -58,7 +58,7 @@ Output node (1 node)
 
 Agent is able to receive an average reward (over 100 episodes) of at least 0.5:
 
-Environment solved in 2063 episodes. 
+Environment solved in 3035 episodes. 
 
 Average score: 0.508
 
